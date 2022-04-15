@@ -6,6 +6,7 @@
     border-radius: 8px;
     display: flex;
     justify-content: center;
+    padding-bottom: 80px;
 }
 
 .form-title {
@@ -40,9 +41,51 @@
     border-radius: 5px;
     border: none;
     font-size: 20px;
+    cursor: pointer;
+}
+
+.form-submit:hover {
+    background-color: rgba(255, 153, 0, 0.5);
 }
 
 .form-link {
     color: #FF9900;
     text-decoration: none;
+}
+
+.divider-container {
+    display: flex;
+    align-items: center;
+}
+
+.divider {
+    width: 50%;
+    background-color: #bdcfda;
+    height: 1px;
+}
+
+.divider-text {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.submit-button {
+    width: 415px;
+    height: 55px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #95A0A7;
+    font-size: 18px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-button img {
+    width: 30px;
+}
+
+.submit-button span {
+    margin-left: 10px;
 }
